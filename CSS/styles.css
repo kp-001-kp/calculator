@@ -6,7 +6,7 @@ body{
     text-align: center;
 }
 .calculator_body{
-    background-color: gray;
+    background-color: rgb(35, 32, 32);
     width: 400px;
     height: 551px;
     margin-left: auto;
@@ -31,14 +31,15 @@ body{
     font-family: Arial;
     color: #ffffff;
     font-size: 29px;
-    background: #193e57;
+    background: #416e8c;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin: 5px;
+    border: none;
   }
   
   .key:hover {
-    background: #135985;
+    background: #51a6da;
     text-decoration: none;
   }
   .calculator_keys{
@@ -72,7 +73,7 @@ body{
     height: 57px;
     text-decoration: none;
     margin-top: 50px;
-    margin-left: 55px;
+    margin-left: 60px;
     margin-bottom: 0px;
     border: none;
     display: block;
@@ -81,4 +82,10 @@ body{
   .key1:hover {
     background: #a33134;
     text-decoration: none;
+  }
+  input{
+    font-size: 50px;
+    text-align: right;
+    border-radius: 10px;
+    font-family: 'Orbitron', sans-serif;
   }
