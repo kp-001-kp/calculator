@@ -7,9 +7,45 @@
     <title>Calculator</title>
     <link rel="icon" href="images/calculator.ico">
     <link rel="stylesheet" href="CSS/styles.css">
-    <style src="script.js" ></style>
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="main_div">
+        <div class="calculator_body">
+            <input type="text" id="calculator_display" placeholder="8 8 8 8 8 8">
+            <button class="key1" onclick="clear_screen()">C</button>
+            <div class="calculator_keys">
+                <div class="row">
+                    <button class="key" onclick="inp(7)">7</button>
+                    <button class="key" onclick="inp(8)">8</button>
+                    <button class="key" onclick="inp(9)">9</button>
+                    <button class="operation" onclick="inp('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class="key" onclick="inp(4)">4</button>
+                    <button class="key" onclick="inp(5)">5</button>
+                    <button class="key" onclick="inp(6)">6</button>
+                    <button class="operation" onclick="inp('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="key" onclick="inp(1)">1</button>
+                    <button class="key" onclick="inp(2)">2</button>
+                    <button class="key" onclick="inp(3)">3</button>
+                    <button class="operation" onclick="inp('*')">x</button>
+                </div>
+                <div class="row">
+                    <button class="key" onclick="inp(0)">0</button>
+                    <button class="key" onclick="inp('.')">.</button>
+                    <button class="operation" onclick="inp('/')">/</button>
+                    <button class="operation" onclick="equal_inp()">=</button>
+        
+                </div>    
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
